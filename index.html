@@ -46,13 +46,71 @@
 </script>
 </head>
 <body>
-	<a href="#" onClick="showContent('about.html')">Страница 1</a>
-<a href="#" onClick="showContent('goals.html')">Страница 2</a>
-<!--//-->
-<div id="content">
-    <!-- CONTENT -->
-</div> 
-<!--//-->
+	<header>
+		<div class="container">
+			<div class="row align-items-center first-line">
+				<div class="col-4 logo"><img src="logo.png"></div>
+				<div class="col-8 h1">
+					<h1>Корпоративный информационный портал</h1>
+				</div>
+			</div>
+			<div class="row menu">
+				<nav>
+					<ul>
+						<!--Company-->
+						<li class="head-menu"> Компания
+							<ul>
+								<li><a href="#" onClick="showContent('about.html')">О нас</a></li>
+								<li><a href="#" onClick="showContent('goals.html')">Планы и цели</a></li>
+								<li><a href="">Наша команда</a></li>
+							</ul>
+						</li>
+						<!--Sale-->
+						<li class="head-menu"> Продажи
+							<ul>
+								<li><a href="">Этапы продаж</a></li>
+								<li><a href="">Кто наш покупатель?</a></li>
+								<li><a href="">Работа с возражениями</a></li>
+								<li><a href="">Встреча с клиентом</a></li>
+
+							</ul>
+						</li>
+						<!--Inf-->
+						<li class="head-menu"> Инструкции
+							<ul>
+								<li><a href="">Работа в 1С</a></li>
+								<li><a href="">Работа в AmoCRM</a></li>
+								<li><a href="">Этапы строительства</a></li>
+								<li><a href="">Таблица рассчётов</a></li>
+								<li><a href="">Важные ссылки</a></li>
+								<li><a href="">Важные контакты</a></li>
+							</ul>
+						</li>
+						<!--New-->
+						<li class="head-menu"> Новичку
+							<ul>
+								<li><a href="">Общая информация</a></li>
+								<li><a href="">Мотивация</a></li>
+								<li><a href="">График и план работы</a></li>
+								<li><a href="">Частые вопросы</a></li>
+							</ul>
+						</li>
+                        <!--actul-->
+						<li class="head-menu">Актуальное</li>
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div id="content"></div> 
+		</div>
+	</div>	
+</div>
 <div id="loading" style="display: none"> 
     Идет загрузка... 
     </div> 
