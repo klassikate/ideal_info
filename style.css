@@ -40,3 +40,22 @@ li.head-menu>ul>li>a{
 	text-transform: initial;
 	font-weight: normal;
 }
+li.head-menu>ul>li>a:active{
+	color: #d24a43;
+	text-decoration: none;
+}
+li.head-menu>ul>li>a:hover{
+	color: #d24a43;
+	text-decoration: none;
+}
+h2{
+	font-size: 18px;
+    text-transform: uppercase;
+    color: #585858;
+	line-height: 30px;
+}
+.main{
+    padding: 25px 0px;
+    background-color: #f9f9f9;
+text-align: justify;
+}
