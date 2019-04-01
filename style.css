@@ -68,3 +68,8 @@ text-indent: 20px;}
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fix-menu{
+    position: fixed;
+    z-index: 1;
+    background-color: #e0e0e0;
+    padding: 10px;}
